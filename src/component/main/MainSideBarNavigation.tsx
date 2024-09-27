@@ -5,10 +5,10 @@ import { useRouter } from 'next/router';
 const MainSideBarNavigation = () => {
   const NAVIGATION = [
     { label: 'Home', path: '/' },
-    { label: 'About', path: '/about' },
-    { label: 'Portfolio', path: '/portfolio' },
-    { label: 'Resume', path: '/resume' },
-    { label: 'Contact', path: '/contact' },
+    { label: 'About', path: '/about/page' },
+    { label: 'Portfolio', path: '/portfolio/page' },
+    { label: 'Resume', path: '/resume/page' },
+    { label: 'Contact', path: '/contact/page' },
   ];
 
   const router = useRouter();
@@ -21,7 +21,7 @@ const MainSideBarNavigation = () => {
 
   return (
     <Card sx={{ width: '20%', height: '100%' }}>
-      <CardContent sx={{ width: '100%', height: '100%' }}>
+      {/* <CardContent sx={{ width: '100%', height: '100%' }}> */}
         <List>
           {NAVIGATION.map((navItem) => (
             <ListItem
@@ -49,7 +49,7 @@ const MainSideBarNavigation = () => {
             </ListItem>
           ))}
         </List>
-      </CardContent>
+      {/* </CardContent> */}
     </Card>
   );
 };

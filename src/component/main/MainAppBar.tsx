@@ -23,15 +23,15 @@ const MainAppBar = ({ children }: { children: ReactNode }) => {
     >
       <AppBar position="static">
         <Toolbar>
-          <IconButton
+          {/* <IconButton
             size="large"
             edge="start"
             color="inherit"
             aria-label="menu"
           >
-          </IconButton>
+          </IconButton> */}
           <Typography variant="h6" >
-            RM Dev History
+            Dev History
           </Typography>
         </Toolbar>
       </AppBar>

@@ -113,7 +113,6 @@ export const light: ThemeOptions = createTheme({
     },
     MuiDialog: {
       defaultProps: {
-        // maxWidth: ['tablet'],
         fullWidth: true,
       },
       styleOverrides: {
