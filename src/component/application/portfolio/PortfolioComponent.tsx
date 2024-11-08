@@ -66,9 +66,9 @@ const PortfolioComponent = () => {
       description: 'Moderating client requests and managing service tasks.',
     },
     {
-      title: 'Premium (Alex Sites) V1 / V2',
+      title: 'Premium Site V1 / V2',
       description:
-        'Adult site for external applications, focusing on user queries.',
+        'Subscription external applications, focusing on user queries.',
     },
     {
       title: 'NMS APPS (Accounts V2)',
